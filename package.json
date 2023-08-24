@@ -1,0 +1,19 @@
+{
+  "name": "combo_generator",
+  "version": "1.0.0",
+  "description": "combo generator",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kittycatbytes/combo_generator.git"
+  },
+  "author": "Cat Norris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kittycatbytes/combo_generator/issues"
+  },
+  "homepage": "https://github.com/kittycatbytes/combo_generator#readme"
+}
