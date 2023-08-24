@@ -5,7 +5,7 @@
 
 window.addEventListener('load', function(event) {
 
-
+this.console.log("Hey! What are you doing here? Get out of here!! Just kidding. Hello! I'm Cat. Thanks for being curious and looking through my code. Okthxbaiiii >^_^< ");
 var complexEmotions = ["onism", "Mal de Coucou", "Sonder", "Chrysalism", "Altschmerz", "Occhiolism", "Ambedo", "Nodus Tollens", "Liberosis", "Vemödalen", "Kairosclerosis", "Vellichor", "Rückkehrunruhe", "Nighthawk", "Dead Reckoning", "Pâro", "Midsummer", "Adronitis", "Rigor Samsa", "Silience",
 "Fitzcarraldo", "Keyframe", "Gnossienne", "Anecdoche", "Catoptric Tristesse", "Anemoia", "Mimeomia", "Monachopsis", "Semaphorism", "Énouement", "Daguerreologue", "Fata Organa", "Avenoir", "Kenopsia", "The Tilt Shift", "Jouska", "Ecstatic Shock", "Heartworm", "Xeno"];
 
