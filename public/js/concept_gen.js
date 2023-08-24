@@ -29,9 +29,11 @@ function getChallengeCombo() {
     var scientificTheoriesIndex = Math.floor(Math.random() * scientificTheories.length);
     var scientificTheory = scientificTheories[scientificTheoriesIndex];
 
-    return `<div>emotion: ${emotion}</div>
+    return `<div class="align-text">
+    <div>emotion: ${emotion}</div>
     <div>philosopher: ${philosopher}</div>
-    <div>scientific theory: ${scientificTheory}</div>`;
+    <div>scientific theory: ${scientificTheory}</div>
+    </div>`;
 }
 
     const cardInner = document.getElementById('cardInner');

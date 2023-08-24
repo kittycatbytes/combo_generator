@@ -2,6 +2,10 @@
     font-family: BrownBagLunch;
     src: url(../assets/Brownbaglunch.ttf);
   }
+  @font-face {
+    font-family: CecepsHandwriting;
+    src: url(../assets/CecepsHandwriting.ttf);
+  }
 
 #teddy-header {
     padding: 15px 25px 0;
@@ -35,23 +39,27 @@
     box-shadow: inset rgba(0,0,0,.5) 0px 0px 6px 2px;
 } */
 
-@media only screen and (max-width: 768px) {
+@media screen  
+and (min-device-width: 320px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2){
     /* For mobile phones: */
-    .subcontent-panel {
-      width: 100%;
+    .flip-card {
+        width: 90vw !important;
     }
   }
 
 
 .flip-card{
     margin: 50px;
+    width: 600px;
+    height: 400px;
 }
 
 
   .flip-card, .flip-card .flipback {
     background-color: transparent;
-    width: 400px;
-    height: 200px;
+
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
 
   }
@@ -81,6 +89,17 @@
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
     box-shadow: darkgray 0px 0px 17px -2px;
+    font-size: 55px !important;
+
+  }
+
+  .align-text {
+    vertical-align: middle;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 1em;
   }
   
   /* Style the front side (fallback if image is missing) */
@@ -89,10 +108,7 @@
     linear-gradient(180deg, white 3rem, #F0A4A4 calc(3rem), #F0A4A4 calc(3rem + 2px), transparent 1px),
     repeating-linear-gradient(0deg, transparent, transparent 1.5rem, #DDD 1px, #DDD calc(1.5rem + 1px));
   box-shadow: 1px 1px 3px rgba(0,0,0,.25);
-  height: 14rem;
-  width: 400px;
-  font-family: BrownBagLunch;
-  font-size: 35px;
+  font-family: CecepsHandwriting;
   margin: auto;
   position: relative;
   top: 50%;
@@ -104,6 +120,5 @@
     background-color: white;
     color: black;
     font-family: BrownBagLunch;
-    font-size: 30px;
     transform: rotateY(180deg);
   }
